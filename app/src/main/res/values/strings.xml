@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">Eshop App</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">E-shop Study</string>
+    <string name="nav_header_subtitle">Su tienda preferida</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome!"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+    <!-- login -->
+    <string name="register">REGISTER</string>
+    <string name="login">LOGIN</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Password</string>
+    <string name="signup_login_hint">Already have an account? Sign In</string>
+    <string name="login_signup_hint">Don\'t have an account? Sign Up</string>
+    <string name="login_name_hint">Name</string>
+    <string name="login_mobile_number_hint">Mobile Number</string>
+
+    <!--    splash -->
+    <string name="splash_screen">Mobile Number</string>
+    <string name="btn_comprar_producto">Comprar Producto</string>
+    <string name="btn_product_edit">Editar</string>
+    <string name="btn_product_delete">Eliminar</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+<!-- Create fragment -->
+    <string name="product_update_title">Edit product</string>
+    <string name="factura_title">Factura de venta</string>
+    <string name="producto_agotado">Producto agotado...! Esperalo pronto !</string>
+    <string name="factura_mensaje">¡..Gracias por tu compra..!</string>
+    <string name="product_create_title">Create new product</string>
+    <string name="product_create_ph_name">Product name</string>
+    <string name="product_create_ph_price">Product Price</string>
+    <string name="product_create_ph_description">Product description</string>
+    <string name="product_create_ph_stock">Add product Stock</string>
+    <string name="btn_SingUp">Sing Off</string>
+    <string name="factura_regresar">Continuar comprando</string>
+    <string name="product_create_btn_cancel">Cancel</string>
+    <string name="product_create_btn_create">Confirm</string>
+    <string name="confirmar_compra">Confirmar Compra</string>
+    <string name="product_create_btnPickImage">Seleccionar Imagen</string>
+
+    <!-- Create fragment -->
+    <string name="btn_go_product_create">Add Product</string>
+
+    <string name="Preference_key">Add Product</string>
+
+
+</resources>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.am2.eshopapp.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_nav_home_to_updateProductFragment"
+            app:destination="@id/updateProductFragment" />
+        <action
+            android:id="@+id/action_nav_home_to_productCreateFragment"
+            app:destination="@id/productCreateFragment" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_login"
+            app:destination="@id/nav_login" />
+        <action
+            android:id="@+id/action_nav_home_to_updateProductFragment2"
+            app:destination="@id/updateProductFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.am2.eshopapp.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.am2.eshopapp.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_login"
+        android:name="com.am2.eshopapp.ui.login.LoginFragment"
+        android:label="Login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/fragmentRegister"
+            app:destination="@id/nav_register" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_register"
+        android:name="com.am2.eshopapp.ui.register.RegisterFragment"
+        android:label="Register"
+        tools:layout="@layout/fragment_register" >
+        <action
+            android:id="@+id/fragmentLogin"
+            app:destination="@id/nav_login" />
+    </fragment>
+    <fragment
+        android:id="@+id/updateProductFragment"
+        android:name="com.am2.eshopapp.ui.home.UpdateProductFragment"
+        android:label="fragment_update_product"
+        tools:layout="@layout/fragment_update_product" >
+        <action
+            android:id="@+id/action_updateProductFragment_to_nav_home"
+            app:destination="@id/nav_home" />
+        <argument
+            android:name="hola"
+            app:argType="string" />
+        <argument
+            android:name="key"
+            app:argType="com.am2.eshopapp.Entities.ProductEntity" />
+    </fragment>
+    <fragment
+        android:id="@+id/productCreateFragment"
+        android:name="com.am2.eshopapp.ui.home.ProductCreateFragment"
+        android:label="fragment_product_create"
+        tools:layout="@layout/fragment_product_create" >
+        <action
+            android:id="@+id/action_productCreateFragment_to_nav_home"
+            app:destination="@id/nav_home" />
+    </fragment>
+
+</navigation>
